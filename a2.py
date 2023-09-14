@@ -44,6 +44,8 @@ def match(pattern: List[str], source: List[str]) -> List[str]:
         # 6) else : this will happen if none of the other conditions are met it
         # indicates the current thing it pattern doesn't match the current thing in
         # source
+    else:
+        return "Does not match any source!"
 
     return result
 
