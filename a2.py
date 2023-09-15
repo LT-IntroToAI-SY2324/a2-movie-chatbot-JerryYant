@@ -36,7 +36,7 @@ def match(pattern: List[str], source: List[str]) -> List[str]:
     if:   # 3) if we reached the end of the source but not the pattern
           return "No pattern found"
         # 4) if the current thing in the pattern is an _
-    if:
+    else:
         # 5) if the current thing in the pattern is the same as the current thing in the
         # source
     if:
