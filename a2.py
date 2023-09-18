@@ -27,23 +27,27 @@ def match(pattern: List[str], source: List[str]) -> List[str]:
         # you should delete the following line
         
         # 1) if we reached the end of the pattern but not source
+    if
           return "No source found"
         # 2) if the current thing in the pattern is a %
         # WARNING: this condition contains the bulk of the code for the assignment
         # If you get stuck on this one, we encourage you to attempt the other conditions
         #   and come back to this one afterwards
-
+    if
+    
     if   # 3) if we reached the end of the source but not the pattern
           return "No pattern found"
         # 4) if the current thing in the pattern is an _
-    else:
+    elif
         # 5) if the current thing in the pattern is the same as the current thing in the
         # source
-
+    if pattern[pind] == source[sind]:
+        return "Patterns match"
         # 6) else : this will happen if none of the other conditions are met it
         # indicates the current thing it pattern doesn't match the current thing in
         # source
-
+    else
+     return "No match or pattern found"
 
 
      return result
