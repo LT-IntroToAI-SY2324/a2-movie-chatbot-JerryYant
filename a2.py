@@ -50,18 +50,15 @@ def match(pattern: List[str], source: List[str]) -> List[str]:
         # 5) if the current thing in the pattern is the same as the current thing in the
         # source
     elif pattern[pind] == source[sind]:
-        
-        return "Patterns match"
+        pind += 1
+        sind += 1
         # 6) else : this will happen if none of the other conditions are met it
         # indicates the current thing it pattern doesn't match the current thing in
         # source
     else:
       return None
-    
-    return "No match or pattern found"
 
-
-     return result
+    return result
 
 
 if __name__ == "__main__":
