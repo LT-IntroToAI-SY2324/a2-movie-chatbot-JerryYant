@@ -16,5 +16,4 @@ How to create a loop with it
 
 
 2. Explain how you could use the match function for extracting information from a movie database.
-
-
+You can can call the match function with the pattern you are looking for and the text used, then use if else for wether it matches or not.
